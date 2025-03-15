@@ -1,0 +1,11 @@
+nome = input("Nome do produto: ")
+qntd = int(input("Quantidade de produtos: "))
+valor = float(input("Valor do produto: R$"))
+desc = float(input("Porcentagem de desconto: "))
+total = float(valor-(valor*desc/100))
+
+print("\nNome = ", nome)
+print("Quantidade = ", qntd)
+print("Valor Unitário = R$1", valor)
+print("Desconto = ", desc,"%",sep="")
+print("Valor Total = R$ ", total)
